@@ -31,7 +31,7 @@
     section {
         margin: 0.5%
     }
-    .section__pic-container {
+    .profile-pic-containter {
         width: 275px;
         height: 275px;
         margin: 0 auto 2rem;
@@ -80,6 +80,7 @@
         width: auto;
         height: 46vw;
         justify-content: center;
+        
     }
     .section__text__p2 {
         font-size: 1.25rem;
