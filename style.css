@@ -316,6 +316,34 @@ section {
 
 /* EXPERIENCE SECTION */
 
+#experience {
+    position: relative;
+}
+
+.experience-container {
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.experience-upper-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 3rem;
+    gap: 2rem;    
+}
+
+.experience-img {
+    height: 300px;
+    flex: 1;
+}
+
+.photo-text-container {
+    padding: 1.5rem
+}
+
 /* PROJECTS SECTION */
 
 #projects {
@@ -326,6 +354,7 @@ section {
     display: flex;
     justify-content: center;
 }
+    
 
 .color-container {
     border: none
