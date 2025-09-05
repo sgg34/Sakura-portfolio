@@ -48,14 +48,12 @@ nav {
 a { /* Style element */
     color: black;
     text-decoration: none;
-    text-decoration-color: white;
 }
 
 a:hover { /* Style when hovering over links*/
     color: rgb(230, 68, 138);
     text-decoration: underline;
     text-underline-offset: 1rem;
-    text-decoration-color: rgb(230, 68, 138);
 }
 
 .logo {
@@ -97,7 +95,6 @@ a:hover { /* Style when hovering over links*/
     position: absolute;
     top: 100%;
     right: 0%;
-    background-color: white;
     width: fit-content;
     max-height: 0;
     overflow: hidden;
@@ -112,6 +109,10 @@ a:hover { /* Style when hovering over links*/
     color: black;
     text-decoration: none;
     transition: all 0.3 ease-in-out;
+}
+
+.menu-links a:hover {
+    color: rgb(230, 68, 138);
 }
 
 .menu-links li {
