@@ -76,6 +76,10 @@
         align-items: center;
         flex-wrap: wrap;
     }
+    .about-containers {
+        margin: 0 auto;
+        max-width: 90%;
+    }
     .section__pic-container {
         width: 275px;
         height: 275px;
@@ -83,7 +87,8 @@
     }
     /*works?*/
     .experience-lower-container {
-        margin: 0 auto 2rem;
+        margin: 0 auto;
+        max-width: 90%
     }
     .contact-info-container {
         margin: 0;
