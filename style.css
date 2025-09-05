@@ -1,6 +1,6 @@
 /* GENERAL */
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     margin: 0;
@@ -9,7 +9,7 @@
 
 body {
     background-color: pink;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
     overflow-x: hidden;
 }
 
@@ -335,13 +335,23 @@ section {
     gap: 2rem;    
 }
 
+.experience-lower-container a {
+    text-decoration: underline;
+    text-underline-offset: auto;
+}
+
 .experience-img {
     height: 300px;
     flex: 1;
+    margin-bottom: 2rem;
 }
 
 .photo-text-container {
-    padding: 1.5rem
+    padding: 1.5rem;
+}
+
+.text {
+    margin-top: 0.5rem;
 }
 
 /* PROJECTS SECTION */
@@ -365,7 +375,9 @@ section {
 }
 
 .project-btn {
-    margin-top: 1.5rem;
+    margin-top: 1rem;
+    color: black;
+    border-color: black;
 }
 
 .project-img {
@@ -381,11 +393,6 @@ section {
 .project-title {
     margin: 1rem;
     color: black;
-}
-
-.project-btn {
-    color: black;
-    border-color: black;
 }
 
 /* CONTACT */

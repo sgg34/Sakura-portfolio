@@ -41,11 +41,18 @@
     }
     .about-containers {
         margin-top: 0;
+        margin-left: 2rem;
+        margin-right: 2rem;
     }
     .section__pic-container {
         width: 275px;
         height: 275px;
         margin: 0 auto 2rem;
+    }
+    .text-container {
+        text-align: justify;
+        margin: 0 auto;
+        max-width: 90%;
     }
 }
 
@@ -102,5 +109,7 @@
     }
     .text-container {
         text-align: justify;
+        margin: 0 auto;
+        max-width: 90%;
     }
 }
