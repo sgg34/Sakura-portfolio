@@ -79,10 +79,6 @@
         align-items: center;
         flex-wrap: wrap;
     }
-    .about-containers {
-        margin: 0 auto;
-        max-width: 80%;
-    }
     .section__pic-container {
         width: 275px;
         height: 275px;
@@ -91,6 +87,16 @@
     .experience-lower-container {
         margin: 0 auto;
         max-width: 90%
+    }
+    .project-img {
+        margin: 0 auto;
+        height: 275px;
+        max-width: 100%
+    }
+    .experience-img {
+        margin: 0 auto;
+        height: 275px;
+        max-width: 100%
     }
     .contact-info-container {
         margin: 0;
