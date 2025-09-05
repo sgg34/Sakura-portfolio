@@ -78,14 +78,13 @@
     }
     .about-containers {
         margin: 0 auto;
-        max-width: 90%;
+        max-width: 80%;
     }
     .section__pic-container {
         width: 275px;
         height: 275px;
         margin: 0 auto 2rem;
     }
-    /*works?*/
     .experience-lower-container {
         margin: 0 auto;
         max-width: 90%
