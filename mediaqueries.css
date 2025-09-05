@@ -44,6 +44,9 @@
         margin-left: 2rem;
         margin-right: 2rem;
     }
+    .about-details-container {
+        gap: 1.5rem;
+    }
     .section__pic-container {
         width: 275px;
         height: 275px;
