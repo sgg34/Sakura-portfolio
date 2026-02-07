@@ -348,6 +348,7 @@ section {
 }
 
 .photo-text-container {
+    width: 400px;
     padding: 1.5rem;
 }
 
